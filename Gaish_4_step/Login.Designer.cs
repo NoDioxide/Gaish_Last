@@ -32,17 +32,17 @@
             this.AdminButtonLog = new System.Windows.Forms.Button();
             this.UserButtonLog = new System.Windows.Forms.Button();
             this.PasswordTB = new System.Windows.Forms.TextBox();
-            this.picturePassword = new System.Windows.Forms.PictureBox();
             this.UserTB = new System.Windows.Forms.TextBox();
-            this.pictureUser = new System.Windows.Forms.PictureBox();
             this.panelTOP = new System.Windows.Forms.Panel();
             this.labelEXIT = new System.Windows.Forms.Label();
             this.labelLogin = new System.Windows.Forms.Label();
             this.labelPDD = new System.Windows.Forms.Label();
+            this.picturePassword = new System.Windows.Forms.PictureBox();
+            this.pictureUser = new System.Windows.Forms.PictureBox();
             this.panelDOWN.SuspendLayout();
+            this.panelTOP.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picturePassword)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureUser)).BeginInit();
-            this.panelTOP.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelDOWN
@@ -102,16 +102,6 @@
             this.PasswordTB.TabIndex = 5;
             this.PasswordTB.UseSystemPasswordChar = true;
             // 
-            // picturePassword
-            // 
-            this.picturePassword.Image = global::Gaish_4_step.Properties.Resources._3671803_closed_lock_icon;
-            this.picturePassword.Location = new System.Drawing.Point(22, 253);
-            this.picturePassword.Name = "picturePassword";
-            this.picturePassword.Size = new System.Drawing.Size(75, 75);
-            this.picturePassword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picturePassword.TabIndex = 4;
-            this.picturePassword.TabStop = false;
-            // 
             // UserTB
             // 
             this.UserTB.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -120,16 +110,6 @@
             this.UserTB.Name = "UserTB";
             this.UserTB.Size = new System.Drawing.Size(271, 37);
             this.UserTB.TabIndex = 3;
-            // 
-            // pictureUser
-            // 
-            this.pictureUser.Image = global::Gaish_4_step.Properties.Resources._285645_user_icon;
-            this.pictureUser.Location = new System.Drawing.Point(22, 144);
-            this.pictureUser.Name = "pictureUser";
-            this.pictureUser.Size = new System.Drawing.Size(75, 75);
-            this.pictureUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureUser.TabIndex = 2;
-            this.pictureUser.TabStop = false;
             // 
             // panelTOP
             // 
@@ -174,11 +154,31 @@
             this.labelPDD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.labelPDD.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPDD.ForeColor = System.Drawing.Color.Black;
-            this.labelPDD.Location = new System.Drawing.Point(98, 9);
+            this.labelPDD.Location = new System.Drawing.Point(89, 9);
             this.labelPDD.Name = "labelPDD";
-            this.labelPDD.Size = new System.Drawing.Size(237, 28);
+            this.labelPDD.Size = new System.Drawing.Size(285, 28);
             this.labelPDD.TabIndex = 0;
-            this.labelPDD.Text = "Учёт нарушений ПДД";
+            this.labelPDD.Text = "Компания «World yachts» ";
+            // 
+            // picturePassword
+            // 
+            this.picturePassword.Image = global::Gaish_4_step.Properties.Resources._3671803_closed_lock_icon;
+            this.picturePassword.Location = new System.Drawing.Point(22, 253);
+            this.picturePassword.Name = "picturePassword";
+            this.picturePassword.Size = new System.Drawing.Size(75, 75);
+            this.picturePassword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picturePassword.TabIndex = 4;
+            this.picturePassword.TabStop = false;
+            // 
+            // pictureUser
+            // 
+            this.pictureUser.Image = global::Gaish_4_step.Properties.Resources._285645_user_icon;
+            this.pictureUser.Location = new System.Drawing.Point(22, 144);
+            this.pictureUser.Name = "pictureUser";
+            this.pictureUser.Size = new System.Drawing.Size(75, 75);
+            this.pictureUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureUser.TabIndex = 2;
+            this.pictureUser.TabStop = false;
             // 
             // Login
             // 
@@ -191,10 +191,10 @@
             this.Text = "Login";
             this.panelDOWN.ResumeLayout(false);
             this.panelDOWN.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picturePassword)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureUser)).EndInit();
             this.panelTOP.ResumeLayout(false);
             this.panelTOP.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picturePassword)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureUser)).EndInit();
             this.ResumeLayout(false);
 
         }

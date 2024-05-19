@@ -1,30 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nodio\\source\\repos\\Gaish_4_step\\",
+  "WorkspaceRootPath": "C:\\Users\\nodio\\Desktop\\Gaish_Last\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0DD7B7F-98FC-4F2C-B340-DE3D48E7E4A4}|Gaish_4_step\\Gaish_4_step.csproj|c:\\users\\nodio\\source\\repos\\gaish_4_step\\gaish_4_step\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0DD7B7F-98FC-4F2C-B340-DE3D48E7E4A4}|Gaish_4_step\\Gaish_4_step.csproj|solutionrelative:gaish_4_step\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0DD7B7F-98FC-4F2C-B340-DE3D48E7E4A4}|Gaish_4_step\\Gaish_4_step.csproj|c:\\users\\nodio\\source\\repos\\gaish_4_step\\gaish_4_step\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0DD7B7F-98FC-4F2C-B340-DE3D48E7E4A4}|Gaish_4_step\\Gaish_4_step.csproj|solutionrelative:gaish_4_step\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0DD7B7F-98FC-4F2C-B340-DE3D48E7E4A4}|Gaish_4_step\\Gaish_4_step.csproj|C:\\Users\\nodio\\source\\repos\\Gaish_4_step\\gaish_4_step\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0DD7B7F-98FC-4F2C-B340-DE3D48E7E4A4}|Gaish_4_step\\Gaish_4_step.csproj|solutionrelative:gaish_4_step\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0DD7B7F-98FC-4F2C-B340-DE3D48E7E4A4}|Gaish_4_step\\Gaish_4_step.csproj|c:\\users\\nodio\\source\\repos\\gaish_4_step\\gaish_4_step\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0DD7B7F-98FC-4F2C-B340-DE3D48E7E4A4}|Gaish_4_step\\Gaish_4_step.csproj|c:\\users\\nodio\\desktop\\gaish_last\\gaish_4_step\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0DD7B7F-98FC-4F2C-B340-DE3D48E7E4A4}|Gaish_4_step\\Gaish_4_step.csproj|solutionrelative:gaish_4_step\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0DD7B7F-98FC-4F2C-B340-DE3D48E7E4A4}|Gaish_4_step\\Gaish_4_step.csproj|C:\\Users\\nodio\\source\\repos\\Gaish_4_step\\gaish_4_step\\addinfointodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0DD7B7F-98FC-4F2C-B340-DE3D48E7E4A4}|Gaish_4_step\\Gaish_4_step.csproj|solutionrelative:gaish_4_step\\addinfointodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0DD7B7F-98FC-4F2C-B340-DE3D48E7E4A4}|Gaish_4_step\\Gaish_4_step.csproj|C:\\Users\\nodio\\source\\repos\\Gaish_4_step\\gaish_4_step\\addinfointodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0DD7B7F-98FC-4F2C-B340-DE3D48E7E4A4}|Gaish_4_step\\Gaish_4_step.csproj|solutionrelative:gaish_4_step\\addinfointodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0DD7B7F-98FC-4F2C-B340-DE3D48E7E4A4}|Gaish_4_step\\Gaish_4_step.csproj|c:\\users\\nodio\\desktop\\gaish_last\\gaish_4_step\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0DD7B7F-98FC-4F2C-B340-DE3D48E7E4A4}|Gaish_4_step\\Gaish_4_step.csproj|solutionrelative:gaish_4_step\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,76 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Main.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\nodio\\source\\repos\\Gaish_4_step\\Gaish_4_step\\Main.cs",
-              "RelativeDocumentMoniker": "Gaish_4_step\\Main.cs",
-              "ToolTip": "C:\\Users\\nodio\\source\\repos\\Gaish_4_step\\Gaish_4_step\\Main.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "Gaish_4_step\\Main.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\nodio\\Desktop\\Gaish_Last\\Gaish_4_step\\Admin.cs",
+              "RelativeDocumentMoniker": "Gaish_4_step\\Admin.cs",
+              "ToolTip": "C:\\Users\\nodio\\Desktop\\Gaish_Last\\Gaish_4_step\\Admin.cs",
+              "RelativeToolTip": "Gaish_4_step\\Admin.cs",
+              "ViewState": "AQIAAB4BAAAAAAAAAAAAADcBAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:13:21.384Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-05-19T17:50:16.142Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\nodio\\source\\repos\\Gaish_4_step\\Gaish_4_step\\Login.cs",
-              "RelativeDocumentMoniker": "Gaish_4_step\\Login.cs",
-              "ToolTip": "C:\\Users\\nodio\\source\\repos\\Gaish_4_step\\Gaish_4_step\\Login.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "Gaish_4_step\\Login.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "Main.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\nodio\\Desktop\\Gaish_Last\\Gaish_4_step\\Main.cs",
+              "RelativeDocumentMoniker": "Gaish_4_step\\Main.cs",
+              "ToolTip": "C:\\Users\\nodio\\Desktop\\Gaish_Last\\Gaish_4_step\\Main.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Gaish_4_step\\Main.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:09:24.584Z",
+              "WhenOpened": "2024-05-18T13:13:21.384Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\nodio\\source\\repos\\Gaish_4_step\\Gaish_4_step\\Admin.cs",
-              "RelativeDocumentMoniker": "Gaish_4_step\\Admin.cs",
-              "ToolTip": "C:\\Users\\nodio\\source\\repos\\Gaish_4_step\\Gaish_4_step\\Admin.cs",
-              "RelativeToolTip": "Gaish_4_step\\Admin.cs",
-              "ViewState": "AQIAAOgAAAAAAAAAAAAIwAEBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-27T06:21:02.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Admin.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\nodio\\source\\repos\\Gaish_4_step\\Gaish_4_step\\Admin.cs",
-              "RelativeDocumentMoniker": "Gaish_4_step\\Admin.cs",
-              "ToolTip": "C:\\Users\\nodio\\source\\repos\\Gaish_4_step\\Gaish_4_step\\Admin.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "Gaish_4_step\\Admin.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-27T06:21:02.125Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddInfoIntoDB.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\nodio\\source\\repos\\Gaish_4_step\\Gaish_4_step\\AddInfoIntoDB.cs",
-              "RelativeDocumentMoniker": "Gaish_4_step\\AddInfoIntoDB.cs",
-              "ToolTip": "C:\\Users\\nodio\\source\\repos\\Gaish_4_step\\Gaish_4_step\\AddInfoIntoDB.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "Gaish_4_step\\AddInfoIntoDB.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-27T10:57:13.025Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddInfoIntoDB.cs",
-              "DocumentMoniker": "C:\\Users\\nodio\\source\\repos\\Gaish_4_step\\Gaish_4_step\\AddInfoIntoDB.cs",
-              "RelativeDocumentMoniker": "Gaish_4_step\\AddInfoIntoDB.cs",
-              "ToolTip": "C:\\Users\\nodio\\source\\repos\\Gaish_4_step\\Gaish_4_step\\AddInfoIntoDB.cs",
-              "RelativeToolTip": "Gaish_4_step\\AddInfoIntoDB.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAmwEwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-27T10:57:27.304Z",
-              "EditorCaption": ""
             }
           ]
         }

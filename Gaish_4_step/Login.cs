@@ -16,13 +16,16 @@ namespace Gaish_4_step
     {
 
         DataBase database = new DataBase();
-        public Login()
+        private Main mainForm;
+        public Login(Main main)
         {
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
 
             this.PasswordTB.AutoSize = false;
             this.PasswordTB.Size = new Size(this.PasswordTB.Size.Width, 40);
+
+            this.mainForm = main;
         }
 
         private void UserButtonLog_Click(object sender, EventArgs e)
@@ -42,10 +45,7 @@ namespace Gaish_4_step
             if (table.Rows.Count == 1)
             {
                 MessageBox.Show("Успешный вход!", "Успех!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                AddInfoIntoDB UsrShop = new AddInfoIntoDB();
-                this.Hide();
-                UsrShop.ShowDialog();
-                this.Show();
+                this.mainForm.UpdateVisibility(true);
             }
             else
                 MessageBox.Show("Аккаунт не найден!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Information);

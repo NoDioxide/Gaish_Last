@@ -16,7 +16,8 @@ namespace Gaish_4_step
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            Main mainForm = new Main();
+            Application.Run(mainForm);
         }
     }
 }

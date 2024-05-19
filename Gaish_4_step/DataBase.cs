@@ -10,8 +10,8 @@ namespace Gaish_4_step
 {
     class DataBase
     {
-        SqlConnection sqlConnection = new SqlConnection(@"Data Source=DEKSTOP-ND\SQLEXPRESS;Initial Catalog=Gaish_4_step;Integrated Security=True");
-
+        SqlConnection sqlConnection = new SqlConnection(@"Data Source=DESKTOP-7QTLDNV\SQLEXPRESS;Initial Catalog=Gaish_4_step;Integrated Security=True");
+        // DESKTOP-7QTLDNV && DEKSTOP-ND
         public void openConnection()
         {
             if(sqlConnection.State == System.Data.ConnectionState.Closed)

@@ -10,6 +10,10 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DocumentFormat.OpenXml;
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.Wordprocessing;
+using System.IO;
 
 namespace Gaish_4_step
 {
@@ -243,6 +247,9 @@ namespace Gaish_4_step
 
             if(textBoxProcess.Text == "Лодка готова")
             {
+                string fileName = "Отчет_о_лодке.docx";
+                GenerateWordDocument(fileName);
+
                 string fromMail = "nodiode05@gmail.com";
                 string fromPassword = "zfjdwmvcckxwufoz";
 
@@ -253,8 +260,11 @@ namespace Gaish_4_step
                 message.From = new MailAddress(fromMail);
                 message.Subject = "Договор №" + randomNumber;
                 message.To.Add(new MailAddress("nodioxide@gmail.com"));
-                message.Body = $"<html><body><h1><b>ОТЧЁТ</b></h1><h2><b>Лодка готова!</b></h2> <p>Наименование товара: {textBoxProfuctName.Text} </p> <p> Цвет: {textBoxColor.Text} </p> <p>Тип лодки: {textBoxShipType.Text} </p> <p>Количество гребцов: {textBoxRowerCapacity.Text} </p>  <p>Сорт дерева: {textBoxWoodTypes.Text}</p> <p>Наличие мачты: {textBoxMastHas.Text}</p> <h1>К оплате: {textBoxBasePrice.Text} рублей </h1> </body></html>";
+                message.Body = $"Отчет и договор по лодке в приложении.";
                 message.IsBodyHtml = true;
+                
+                Attachment attachment = new Attachment(fileName);
+                message.Attachments.Add(attachment);
 
                 var smtpClient = new SmtpClient("smtp.gmail.com")
                 {
@@ -265,7 +275,56 @@ namespace Gaish_4_step
 
                 smtpClient.Send(message);
             }
-        }    
+        }
+
+        private void GenerateWordDocument(string fileName)
+        {
+            /*using (WordprocessingDocument wordDocument = WordprocessingDocument.Create(fileName, WordprocessingDocumentType.Document))
+            {
+                MainDocumentPart mainPart = wordDocument.AddMainDocumentPart();
+                mainPart.Document = new Document();
+                Body body = mainPart.Document.AppendChild(new Body());
+
+                Paragraph paragraph = body.AppendChild(new Paragraph());
+                paragraph.AppendChild(new Run(new Text($"ОТЧЁТ")));
+                paragraph.Append(new Break());
+                paragraph.AppendChild(new Run(new Text($"Лодка готова!")));
+                paragraph.Append(new Break());
+                paragraph.AppendChild(new Run(new Text($"Наименование товара: {textBoxProfuctName.Text}")));
+                paragraph.Append(new Break());
+                paragraph.AppendChild(new Run(new Text($"Цвет: {textBoxColor.Text}")));
+                paragraph.Append(new Break());
+                paragraph.AppendChild(new Run(new Text($"Тип лодки: {textBoxShipType.Text}")));
+                paragraph.Append(new Break());
+                paragraph.AppendChild(new Run(new Text($"Количество гребцов: {textBoxRowerCapacity.Text}")));
+                paragraph.Append(new Break());
+                paragraph.AppendChild(new Run(new Text($"Сорт дерева: {textBoxWoodTypes.Text}")));
+                paragraph.Append(new Break());
+                paragraph.AppendChild(new Run(new Text($"Наличие мачты: {textBoxMastHas.Text}")));
+                paragraph.Append(new Break());
+                paragraph.AppendChild(new Run(new Text($"К оплате: {textBoxBasePrice.Text} рублей")));
+
+                mainPart.Document.Save();
+            }*/
+
+            string reportContent = $"Договор №{new Random().Next(1000, 10000)}\n\n" +
+                                   "ОТЧЕТ\n" +
+                                   "Лодка готова!\n\n" +
+                                   $"Наименование товара: {textBoxProfuctName.Text}\n" +
+                                   $"Цвет: {textBoxColor.Text}\n" +
+                                   $"Тип лодки: {textBoxShipType.Text}\n" +
+                                   $"Количество гребцов: {textBoxRowerCapacity.Text}\n" +
+                                   $"Сорт дерева: {textBoxWoodTypes.Text}\n" +
+                                   $"Наличие мачты: {textBoxMastHas.Text}\n\n" +
+                                   $"К оплате: {textBoxBasePrice.Text} рублей\n\n" +
+                                   "ДОГОВОР\n" +
+                                   $"Настоящим подтверждается, что покупатель приобрел лодку по вышеуказанным характеристикам и цене.\n" +
+                                   "Данный договор является официальным подтверждением сделки.\n\n" +
+                                   "Дата: " + DateTime.Now.ToString("dd.MM.yyyy");
+
+            File.WriteAllText(fileName, reportContent, Encoding.UTF8);
+        }
+
 
         private void Change()
         {

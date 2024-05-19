@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="labelPDD.Text" xml:space="preserve">
+    <value>Яхтенная верфь полного цикла «World yachts» основана в 1995 году. Компания занимается проектированием и строительством лодок и яхт малого класса на заказ с 1996 года на собственной верфи в Санкт-Петербурге и с 2003 года на подрядных верфях в Голландии и Испании.</value>
+  </data>
 </root>
