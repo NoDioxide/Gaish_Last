@@ -251,7 +251,8 @@ namespace Gaish_4_step
                 GenerateWordDocument(fileName);
 
                 string fromMail = "nodiode05@gmail.com";
-                string fromPassword = "zfjdwmvcckxwufoz";
+                string fromPassword = "ctziwujfmzargacv"; // ctziwujfmzargacv                // zfjdwmvcckxwufoz
+
 
                 Random random = new Random();
                 int randomNumber = random.Next(1000, 10000);

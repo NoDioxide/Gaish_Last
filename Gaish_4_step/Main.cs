@@ -289,7 +289,7 @@ namespace Gaish_4_step
 
         private void InsertOrderIntoDatabase()
         {
-            string connectionString = @"Data Source=DESKTOP-7QTLDNV\SQLEXPRESS;Initial Catalog=Gaish_4_step;Integrated Security=True";
+            string connectionString = @"Data Source=DEKSTOP-ND\SQLEXPRESS;Initial Catalog=Gaish_4_step;Integrated Security=True";
             int totalPrice = int.Parse(textBoxTotalPrice.Text);
 
             using (SqlConnection connection = new SqlConnection(connectionString))

@@ -13,7 +13,7 @@ namespace Gaish_4_step
         {
             InitializeComponent();
             InitializeCustomComponents();
-            sqlConnection = new SqlConnection(@"Data Source=DESKTOP-7QTLDNV\SQLEXPRESS;Initial Catalog=Gaish_4_step;Integrated Security=True");
+            sqlConnection = new SqlConnection(@"Data Source=DEKSTOP-ND\SQLEXPRESS;Initial Catalog=Gaish_4_step;Integrated Security=True");
         }
 
         private void InitializeCustomComponents()
